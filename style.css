@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f9f7fc;
+    color: #333;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: #b497d6;
+}
+
+.logo {
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.home {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(to right, #d8c4f2, #f3ecff);
+}
+
+.home span {
+    color: #6a1b9a;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 25px;
+    background: #6a1b9a;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px;
+}
+
+.skill-box, .project-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#contact form {
+    max-width: 400px;
+    margin: auto;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #6a1b9a;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #b497d6;
+    color: white;
+}
